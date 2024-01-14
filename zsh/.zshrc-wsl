@@ -1,0 +1,2 @@
+alias wpy="venv/Scripts/python.exe"
+alias open="explorer.exe"

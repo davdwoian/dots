@@ -1,0 +1,20 @@
+/*
+/*/
+
+!/.gitignore
+
+!/README.md
+
+!/user
+
+# !/alacritty
+
+# !/skhd
+!/tmux/
+/tmux/*
+!/tmux/tmux.conf.local
+
+!/zsh/
+/zsh/*
+!/zsh/.zshrc*
+!/zsh/.p10k.zsh
