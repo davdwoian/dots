@@ -6,15 +6,18 @@ fi
 base=$(pwd)
 
 # nvchad setup
+cd $base
 git clone https://github.com/NvChad/NvChad nvim
-ln -s $base/user/nvim/lua/custom ./nvim/lua/custom
+ln -s ./user/nvim/lua/custom ./nvim/lua/custom
 
 # omz setup
+cd $base
 git clone https://github.com/ohmyzsh/ohmyzsh zsh/.omz
 
 # tmux setup
 mkdir -p tmux
-git clone  https://github.com/gpakosz/.tmux tmux/.tmux
-ln -s $base/tmux/.tmux/.tmux.conf ./tmux/tmux.conf
+cd $base/tmux
+git clone  https://github.com/gpakosz/.tmux .tmux
+ln -s ./.tmux/.tmux.conf ./tmux.conf
 
 echo "gited"
