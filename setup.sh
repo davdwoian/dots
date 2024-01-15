@@ -8,7 +8,8 @@ base=$(pwd)
 # nvchad setup
 cd $base
 git clone https://github.com/NvChad/NvChad nvim
-ln -s ./user/nvim/lua/custom ./nvim/lua/custom
+cd $base/nvim/lua
+ln -s ../../user/nvim/lua/custom custom
 
 # omz setup
 cd $base
