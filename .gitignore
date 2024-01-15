@@ -18,3 +18,5 @@
 /zsh/*
 !/zsh/.zshrc*
 !/zsh/.p10k.zsh
+
+!/setup.sh
