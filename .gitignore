@@ -7,9 +7,10 @@
 
 !/user
 
-# !/alacritty
+!/alacritty
 
-# !/skhd
+!/skhd
+
 !/tmux/
 /tmux/*
 !/tmux/tmux.conf.local
@@ -20,3 +21,4 @@
 !/zsh/.p10k.zsh
 
 !/setup.sh
+

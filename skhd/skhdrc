@@ -1,0 +1,1 @@
+alt - return : open -na /Applications/Alacritty.app --args --config-file ~/.config/alacritty/alacritty-darwin.yaml
